@@ -1,0 +1,8 @@
+#Test con Kaniko
+include:
+  project: "cineca-toolkit/cicd/gitlab-ci"
+  file: base.ci.yaml
+
+variables:
+  NODEJS_VERSION: 18
+  DOCKERFILE: angular-apache
