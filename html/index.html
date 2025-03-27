@@ -58,7 +58,7 @@
                     <div class="it-header-center-content-wrapper">
                         <div class="it-brand-wrapper">
                             <a href="#">
-                                <img src="./img/logo-SUA.png" class="img-fluid" alt="Logo SUA-CdS">
+                                <img src="./img/logo-SUA.png" class="img-fluid me-3" alt="Logo SUA-CdS">
                                 <div class="it-brand-text">
                                     <div class="it-brand-title">Scheda Unica Annuale - Corsi di Studio</div>
                                     <div class="it-brand-tagline d-none d-md-block">Il portale per la qualità delle sedi e dei corsi di studio</div>
@@ -95,7 +95,8 @@
                 </button>
             </div>
             <div class="menu-wrapper justify-content-lg-between">
-                <ul class="navbar-nav">
+                <div class="container">
+                <ul class="navbar-nav px-0">
                     <li class="nav-item"><a class="nav-link" href="#">Normativa e Comunicazioni</a></li>
                     <li class="nav-item dropdown megamenu">
                         <button type="button" class="nav-link dropdown-toggle px-lg-2 px-xl-3" data-bs-toggle="dropdown" aria-expanded="false" id="megamenu-base-D" data-focus-mouse="false">
@@ -132,6 +133,7 @@
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#">Schede Indicatori</a></li>
                 </ul>
+                </div>
             </div>
         </div>
     </nav>
@@ -147,13 +149,13 @@
                 </ol>
             </nav>
             <!--Titolo-->
-            <div class="col-md-10 justify-content-left mt-4">
+            <div class="justify-content-left mt-4">
                 <p class="lead"><strong>Portale Scheda Unica Annuale</strong></p>
             </div>
             <!--Azioni-->
             <div class="row">
                 <!--Select Anno-->
-                <div class="col-sm-6 select-wrapper mt-5 mb-5">
+                <div class="col-xl-3 col-md-4 col-sm-6 col-6 select-wrapper my-5">
                     <label for="SelectAnno">Anno</label>
                     <select id="SelectAnno">
                     <option selected="" value="anno2025">2025</option>
@@ -172,26 +174,30 @@
                     </select>
                 </div>
                 <!--Bottoni Azione-->
-                <a href="elenco_schede.html" class="col-sm-3 btn btn-primary btn-icon" role="button">
-                    <svg class="icon icon-white ms-1"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-files"></use></svg>
-                    <span>Visualizza Schede</span>
-                </a>
-                <a href="#" class="col-sm-3 btn btn-primary btn-icon" role="button">Corsi su sede decentrata</a>
+                <div class="col-sm-6 d-flex flex-wrap ms-auto">
+                    <a href="elenco_schede.html" class="col btn btn-primary btn-icon ms-auto me-3 my-3" role="button">
+                        <svg class="icon icon-white ms-1"><use href="/bootstrap-italia/dist/svg/sprites.svg#it-files"></use></svg>
+                        <span>Visualizza Schede</span>
+                    </a>
+                    <a href="#" class="col btn btn-primary btn-icon ms-auto my-3 flex-wrap" role="button">Corsi su sede decentrata</a>
+                </div>
+            </div>
+            <div class="justify-content-left mt-4 border-bottom">
+                <p class="big-heading"><strong>Portale Scheda Unica Annuale</strong></p>
             </div>
             <!--Griglia di Cards-->
-            <div class="row row-cols-sm-3 g-4">
+            <div class="row row-cols-lg-3 row-cols-sm-2 row-cols-1 g-4 mb-5">
                 <div class="col">
                     <!--start card-->
                     <div class="card-wrapper card-space">
                         <div class="card card-bg">
                             <div class="card-body">
-                                <div class="category-top">
-                                    <a class="category" href="#">New</a>
-                                    <span class="data">10/12/2025</span>
-                                </div>
+                                <div class="head-tags">
+                                    <a class="card-tag" href="#">Tag</a>
+                                    <span class="data">10/10/2025</span>
+                                  </div>
                                 <h3 class="card-title big-heading h5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h3>
                                 <p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <span class="card-signature">di Federico De Paolis</span>
                                 <a class="read-more" href="#">
                                     <span class="text">Leggi tutto</span>
                                     <span class="visually-hidden">su Lorem ipsum dolor sit amet, consectetur adipiscing elit…</span>
@@ -207,13 +213,12 @@
                     <div class="card-wrapper card-space">
                         <div class="card card-bg">
                             <div class="card-body">
-                                <div class="category-top">
-                                    <a class="category" href="#">New</a>
-                                    <span class="data">10/12/2025</span>
-                                </div>
+                                <div class="head-tags">
+                                    <a class="card-tag" href="#">Tag</a>
+                                    <span class="data">10/10/2025</span>
+                                  </div>
                                 <h3 class="card-title big-heading h5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h3>
                                 <p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <span class="card-signature">di Federico De Paolis</span>
                                 <a class="read-more" href="#">
                                     <span class="text">Leggi tutto</span>
                                     <span class="visually-hidden">su Lorem ipsum dolor sit amet, consectetur adipiscing elit…</span>
@@ -229,13 +234,12 @@
                     <div class="card-wrapper card-space">
                         <div class="card card-bg">
                             <div class="card-body">
-                                <div class="category-top">
-                                    <a class="category" href="#">New</a>
-                                    <span class="data">10/12/2025</span>
-                                </div>
+                                <div class="head-tags">
+                                    <a class="card-tag" href="#">Tag</a>
+                                    <span class="data">10/10/2025</span>
+                                  </div>
                                 <h3 class="card-title big-heading h5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h3>
                                 <p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <span class="card-signature">di Federico De Paolis</span>
                                 <a class="read-more" href="#">
                                     <span class="text">Leggi tutto</span>
                                     <span class="visually-hidden">su Lorem ipsum dolor sit amet, consectetur adipiscing elit…</span>
@@ -251,13 +255,12 @@
                     <div class="card-wrapper card-space">
                         <div class="card card-bg">
                             <div class="card-body">
-                                <div class="category-top">
-                                    <a class="category" href="#">New</a>
-                                    <span class="data">10/12/2025</span>
-                                </div>
+                                <div class="head-tags">
+                                    <a class="card-tag" href="#">Tag</a>
+                                    <span class="data">10/10/2025</span>
+                                  </div>
                                 <h3 class="card-title big-heading h5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h3>
                                 <p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <span class="card-signature">di Federico De Paolis</span>
                                 <a class="read-more" href="#">
                                     <span class="text">Leggi tutto</span>
                                     <span class="visually-hidden">su Lorem ipsum dolor sit amet, consectetur adipiscing elit…</span>
@@ -273,13 +276,12 @@
                     <div class="card-wrapper card-space">
                         <div class="card card-bg">
                             <div class="card-body">
-                                <div class="category-top">
-                                    <a class="category" href="#">New</a>
-                                    <span class="data">10/12/2025</span>
-                                </div>
+                                <div class="head-tags">
+                                    <a class="card-tag" href="#">Tag</a>
+                                    <span class="data">10/10/2025</span>
+                                  </div>
                                 <h3 class="card-title big-heading h5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h3>
                                 <p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <span class="card-signature">di Federico De Paolis</span>
                                 <a class="read-more" href="#">
                                     <span class="text">Leggi tutto</span>
                                     <span class="visually-hidden">su Lorem ipsum dolor sit amet, consectetur adipiscing elit…</span>
@@ -295,13 +297,12 @@
                     <div class="card-wrapper card-space">
                         <div class="card card-bg">
                             <div class="card-body">
-                                <div class="category-top">
-                                    <a class="category" href="#">New</a>
-                                    <span class="data">10/12/2025</span>
-                                </div>
+                                <div class="head-tags">
+                                    <a class="card-tag" href="#">Tag</a>
+                                    <span class="data">10/10/2025</span>
+                                  </div>
                                 <h3 class="card-title big-heading h5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h3>
                                 <p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <span class="card-signature">di Federico De Paolis</span>
                                 <a class="read-more" href="#">
                                     <span class="text">Leggi tutto</span>
                                     <span class="visually-hidden">su Lorem ipsum dolor sit amet, consectetur adipiscing elit…</span>
@@ -317,13 +318,12 @@
                     <div class="card-wrapper card-space">
                         <div class="card card-bg">
                             <div class="card-body">
-                                <div class="category-top">
-                                    <a class="category" href="#">New</a>
-                                    <span class="data">10/12/2025</span>
-                                </div>
+                                <div class="head-tags">
+                                    <a class="card-tag" href="#">Tag</a>
+                                    <span class="data">10/10/2025</span>
+                                  </div>
                                 <h3 class="card-title big-heading h5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h3>
                                 <p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <span class="card-signature">di Federico De Paolis</span>
                                 <a class="read-more" href="#">
                                     <span class="text">Leggi tutto</span>
                                     <span class="visually-hidden">su Lorem ipsum dolor sit amet, consectetur adipiscing elit…</span>
@@ -339,13 +339,12 @@
                     <div class="card-wrapper card-space">
                         <div class="card card-bg">
                             <div class="card-body">
-                                <div class="category-top">
-                                    <a class="category" href="#">New</a>
-                                    <span class="data">10/12/2025</span>
-                                </div>
+                                <div class="head-tags">
+                                    <a class="card-tag" href="#">Tag</a>
+                                    <span class="data">10/10/2025</span>
+                                  </div>
                                 <h3 class="card-title big-heading h5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h3>
                                 <p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <span class="card-signature">di Federico De Paolis</span>
                                 <a class="read-more" href="#">
                                     <span class="text">Leggi tutto</span>
                                     <span class="visually-hidden">su Lorem ipsum dolor sit amet, consectetur adipiscing elit…</span>
@@ -361,13 +360,12 @@
                     <div class="card-wrapper card-space">
                         <div class="card card-bg">
                             <div class="card-body">
-                                <div class="category-top">
-                                    <a class="category" href="#">New</a>
-                                    <span class="data">10/12/2025</span>
-                                </div>
+                                <div class="head-tags">
+                                    <a class="card-tag" href="#">Tag</a>
+                                    <span class="data">10/10/2025</span>
+                                  </div>
                                 <h3 class="card-title big-heading h5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit…</h3>
                                 <p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <span class="card-signature">di Federico De Paolis</span>
                                 <a class="read-more" href="#">
                                     <span class="text">Leggi tutto</span>
                                     <span class="visually-hidden">su Lorem ipsum dolor sit amet, consectetur adipiscing elit…</span>
@@ -394,7 +392,7 @@
             <div class="container">
                 <section class="py-4">
                     <div class="row pb-2">
-                        <div class="col-lg-4 col-md-4">
+                        <div class="col-sm-4 col-6">
                             <h4>PRESENTATO DA</h4>
                             <div class="row g-3 align-items-center">
                                 <div class="col-auto">
@@ -405,7 +403,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 pb-2 ms-auto">
+                        <div class="col-sm-4 col-6 ms-auto">
                             <h4>UN PROGETTO DI</h4>
                             <img src="./img/logo-mur.jpg" class="img-fluid" alt="Logo MUR" width="60" height="60">
                         </div>
@@ -420,7 +418,7 @@
                     <li class="list-inline-item"><a href="#">FAQ</a></li>
                     <li class="list-inline-item"><a href="#">Mappa del sito</a></li>
                     <li class="list-inline-item"><a href="#">Supporto</a></li>
-                    <li class="list-inline-item ms-auto"><span class="text-white">Sviluppato da: </span><a href="#">CINECA</a></li>
+                    <li class="list-inline-item ms-md-auto"><span class="text-white">Sviluppato da: </span><a href="#">CINECA</a></li>
                 </ul>
             </div>
         </div>
