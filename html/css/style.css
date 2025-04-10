@@ -1,6 +1,13 @@
-.megamenu div.dropdown-menu {
-    margin-left: 20%;
-    padding-right: 0%;
+/* Base styles - Mobile First */
+div.dropdown-menu .megamenu {
+    margin-left: 0%;
+}
+
+/* Large screens - from 992px and up */
+@media (min-width: 992px) {
+    div.dropdown-menu {
+        margin-left: 23% !important;
+    }
 }
 
 .truncate-3 {
