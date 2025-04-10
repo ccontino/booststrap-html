@@ -1,3 +1,8 @@
+.megamenu div.dropdown-menu {
+    margin-left: 20%;
+    padding-right: 0%;
+}
+
 .truncate-3 {
     display: -webkit-box;
     line-clamp: 3;
